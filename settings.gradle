@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pluginManagement {
     repositories {
         gradlePluginPortal()
@@ -5,12 +6,21 @@ pluginManagement {
         mavenCentral()
     }
 }
+=======
+>>>>>>> 804154e207bbcc2cf4724c44df14c87f962c92b7
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
+<<<<<<< HEAD
     }
 }
 rootProject.name = "lexi"
+=======
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "ProyectoFinalAppMov"
+>>>>>>> 804154e207bbcc2cf4724c44df14c87f962c92b7
 include ':app'
