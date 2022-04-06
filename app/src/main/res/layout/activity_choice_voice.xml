@@ -38,7 +38,7 @@
         android:scaleType="fitXY"
         app:srcCompat="@drawable/voice_icon"
         tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="71dp" />
+        tools:layout_editor_absoluteY="71dp" ></ImageView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="0dp"
@@ -64,7 +64,7 @@
             android:layout_marginTop="12dp"
             android:layout_marginEnd="12dp"
             android:layout_marginBottom="12dp"
-            android:text="as auctor ipsum vitae gravida consequat. Ut dignissim, lorem a lacinia vestibulum, dui nisi faucibus velit, id congue felis metus non tellus. Mauris hendrerit, sem sit amet posuere auctor, mauris est feugiat libero, eu porttitor nisl augue a mauris. Nam et aliquet nisl, et feugiat risus"
+            android:text="Yo soy maria"
             android:textColor="@color/black"
             android:textSize="18sp" />
     </androidx.cardview.widget.CardView>
@@ -74,6 +74,6 @@
         android:layout_height="49dp"
         tools:layout_editor_absoluteX="84dp"
         tools:layout_editor_absoluteY="524dp"
-        android:text="Confirmar"/>
+        android:text="Confirmar"></Button>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
